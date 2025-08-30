@@ -58,4 +58,10 @@ This allows you to use the same workflow for different futures markets with mini
 ---
 
 **Author:** livefreeordie_t (https://x.com/livefreeordie_t)
-**Last updated:** July 2025
+
+**Last updated:** August 2025
+
+**Updates:** August 2025
+- Fixed contract rollover overlap in data processing.
+- Now, when contract periods overlap, only the most recent contract’s data for each timestamp is kept.
+- This ensures clean, continuous time series without duplicate or conflicting contract data.
